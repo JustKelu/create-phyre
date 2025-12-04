@@ -1,0 +1,41 @@
+{
+  "name": "create-phyre",
+  "version": "0.8.0-beta.2",
+  "type": "module",
+  "description": "Official CLI for creating Phyre projects",
+  "bin": {
+    "create-phyre": "./cli/index.js"
+  },
+  "files": [
+    "cli",
+    "template",
+    "ts-template",
+    "package-template",
+    "package-ts-template",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "react",
+    "framework",
+    "ssr",
+    "fullstack",
+    "monorepo"
+  ],
+  "author": {
+    "name": "Luca Oliva",
+    "email": "luca.oliva.dev@gmail.com",
+    "url": "https://github.com/justkelu"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justkelu/create-phyre.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "prompts": "^2.4.2"
+  }
+}
