@@ -23,6 +23,7 @@ function runCommand(command, args, cwd) {
     return new Promise((resolve, reject) => {
         const child = spawn(command, args, {
             cwd,
+            shell: true,
             stdio: 'inherit'
         });
         

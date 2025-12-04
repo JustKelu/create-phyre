@@ -18,6 +18,13 @@ npx create-phyre@latest my-app
 - ✅ Package structure option
 - ✅ Automatic dependency installation
 
+## 📝 Changelog
+
+### v0.8.0-beta.2.1
+- ✅ Fixed dependencies installer on Windows
+- ✅ Fixed project name display in console after creation
+
+
 ## Templates
 
 - `template` - Basic JavaScript setup

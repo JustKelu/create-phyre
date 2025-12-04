@@ -14,7 +14,7 @@ export function projectReadyLog(projectName, install) {
 
 Next steps:
 
-    cd ${projectName}
+    cd ${projectName.name ? projectName.name : projectName}
     ${install ? '' : 'npm install\n  '}npm run dev
 
 Your app will be avaible on:

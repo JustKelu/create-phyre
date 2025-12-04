@@ -1,6 +1,6 @@
 {
   "name": "create-phyre",
-  "version": "0.8.0-beta.2",
+  "version": "0.8.0-beta.2.1",
   "type": "module",
   "description": "Official CLI for creating Phyre projects",
   "bin": {
